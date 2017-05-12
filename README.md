@@ -43,7 +43,7 @@ $('#<device-id>').setup({
     dataBits: 8,
     parity: "even"
 }, callback);
-$('#<device-id>').open(callback);
+$('#<device-id>').open();
 $('#<device-id>').write(data, callback);
 ```
 
